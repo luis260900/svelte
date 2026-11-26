@@ -196,6 +196,18 @@ importers:
         specifier: ^11.3.3
         version: 11.3.3(vite@7.3.5(@types/node@24.5.2)(lightningcss@1.23.0)(sass@1.70.0)(terser@5.27.0))
 
+  playgrounds/serve-and-win:
+    devDependencies:
+      '@sveltejs/vite-plugin-svelte':
+        specifier: ^6.2.0
+        version: 6.2.0(svelte@packages+svelte)(vite@7.3.5(@types/node@24.5.2)(lightningcss@1.23.0)(sass@1.70.0)(terser@5.27.0))
+      svelte:
+        specifier: workspace:*
+        version: link:../../packages/svelte
+      vite:
+        specifier: ^7.3.5
+        version: 7.3.5(@types/node@24.5.2)(lightningcss@1.23.0)(sass@1.70.0)(terser@5.27.0)
+
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':
